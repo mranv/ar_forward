@@ -1,0 +1,22 @@
+[package]
+name = "ar_forward"
+version = "0.1.0"
+edition = "2021"
+
+# Dependencies shared by both binaries
+[dependencies]
+serde_json = "1.0"
+
+# Binary for main.rs
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+# Binary for json.rs
+[[bin]]
+name = "json"
+path = "src/json.rs"
+
+# [dependencies.main]
+
+# [dependencies.json]
